@@ -19,6 +19,7 @@
 		F9F837D31E015F4E0055D589 /* Cyclist.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F837D21E015F4E0055D589 /* Cyclist.m */; };
 		F9F837D61E01600D0055D589 /* Runner.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F837D51E01600D0055D589 /* Runner.m */; };
 		F9F837D91E0160200055D589 /* Swimmer.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F837D81E0160200055D589 /* Swimmer.m */; };
+		F9F837DC1E016B8C0055D589 /* SuperMan.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F837DB1E016B8C0055D589 /* SuperMan.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,8 @@
 		F9F837D51E01600D0055D589 /* Runner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Runner.m; sourceTree = "<group>"; };
 		F9F837D71E0160200055D589 /* Swimmer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Swimmer.h; sourceTree = "<group>"; };
 		F9F837D81E0160200055D589 /* Swimmer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Swimmer.m; sourceTree = "<group>"; };
+		F9F837DA1E016B8C0055D589 /* SuperMan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperMan.h; sourceTree = "<group>"; };
+		F9F837DB1E016B8C0055D589 /* SuperMan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperMan.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +116,8 @@
 		F9F8379A1E0158EE0055D589 /* ArrayHomeWork01 */ = {
 			isa = PBXGroup;
 			children = (
+				F9F837DA1E016B8C0055D589 /* SuperMan.h */,
+				F9F837DB1E016B8C0055D589 /* SuperMan.m */,
 				F9F837CE1E015ACD0055D589 /* Human.h */,
 				F9F837CF1E015ACD0055D589 /* Human.m */,
 				F9F837D11E015F4E0055D589 /* Cyclist.h */,
@@ -293,6 +298,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9F837DC1E016B8C0055D589 /* SuperMan.m in Sources */,
 				F9F837D31E015F4E0055D589 /* Cyclist.m in Sources */,
 				F9F837D61E01600D0055D589 /* Runner.m in Sources */,
 				F9F837A31E0158EE0055D589 /* ViewController.m in Sources */,
