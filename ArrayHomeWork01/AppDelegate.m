@@ -73,8 +73,8 @@
     }
     NSLog(@"разворачиваем массив array ");
     for (int i = [array count] - 1; i >= 0; i--) {
-        Human *personName = [array objectAtIndex:i];
-        NSLog(@"Имя - %@", personName.name);
+        Human *person = [array objectAtIndex:i];
+        NSLog(@"Имя - %@", person.name);
     }
     
     
