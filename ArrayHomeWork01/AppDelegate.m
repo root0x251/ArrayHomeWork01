@@ -11,6 +11,7 @@
 #import "Cyclist.h"
 #import "Runner.h"
 #import "Swimmer.h"
+#import "SuperMan.h"
 
 @interface AppDelegate ()
 
@@ -25,6 +26,7 @@
     Cyclist *personOnCycle = [[Cyclist alloc]init];
     Runner *personWhoRun = [[Runner alloc]init];
     Swimmer *personWhoSwim = [[Swimmer alloc]init];
+    SuperMan *personWhoSuperMan = [[SuperMan alloc]init];
     
     personOnCycle.name = @"Rick";
     personOnCycle.height = 165.3f;
@@ -41,15 +43,40 @@
     personWhoSwim.weight = 49.9f;
     personWhoSwim.sex = @"female";
     
-    NSArray *array = @[personOnCycle, personWhoRun, personWhoSwim];
+    personWhoSuperMan.name = @"Klark";
+    personWhoSuperMan.height = 199.2;
+    personWhoSuperMan.weight = 92.4;
+    personWhoSuperMan.sex = @"male";
+    personWhoSuperMan.isReal = NO;
+    
+    NSArray *array = @[personOnCycle, personWhoRun, personWhoSwim, personWhoSuperMan];
     for (Human *string in array) {
         NSLog(@"Имя - %@", string.name);
         NSLog(@"Рост-%.2f", string.height);
         NSLog(@"Вес-%.2f", string.weight);
         NSLog(@"Пол-%@", string.sex);
+        
+        //СУПЕРМЕН
+        if ([string isKindOfClass:[SuperMan class]]) {
+            NSLog(@"выводим новое property для personWhoSuperMan");
+            SuperMan *child = (SuperMan *) string;
+            //            NSLog(@"он реальный-%hhd", child.isReal);
+            if (child.isReal == 0) {
+                NSLog(@"он не реальный");
+            }else NSLog(@"он реальный");
+        }
+        
         //метод передвижения
         [string motion];
+        
+        
     }
+    NSLog(@"разворачиваем массив array");
+    for (int i = [array count] - 1; i >= 0; i--) {
+        Human *personName = [array objectAtIndex:i];
+        NSLog(@"Имя - %@", personName.name);
+    }
+    
     
     
     return YES;

@@ -1,17 +1,17 @@
 //
-//  Runner.m
+//  SuperMan.h
 //  ArrayHomeWork01
 //
 //  Created by Slava on 14.12.16.
 //  Copyright © 2016 Slava. All rights reserved.
 //
 
-#import "Runner.h"
+#import "Human.h"
 
-@implementation Runner
+@interface SuperMan : Human
 
-- (void) motion{
-    NSLog(@"бег");
-}
+@property (assign, nonatomic) BOOL isReal;
+
+- (void) motion;
 
 @end

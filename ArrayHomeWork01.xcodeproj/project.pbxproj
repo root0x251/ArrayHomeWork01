@@ -116,10 +116,10 @@
 		F9F8379A1E0158EE0055D589 /* ArrayHomeWork01 */ = {
 			isa = PBXGroup;
 			children = (
-				F9F837DA1E016B8C0055D589 /* SuperMan.h */,
-				F9F837DB1E016B8C0055D589 /* SuperMan.m */,
 				F9F837CE1E015ACD0055D589 /* Human.h */,
 				F9F837CF1E015ACD0055D589 /* Human.m */,
+				F9F837DA1E016B8C0055D589 /* SuperMan.h */,
+				F9F837DB1E016B8C0055D589 /* SuperMan.m */,
 				F9F837D11E015F4E0055D589 /* Cyclist.h */,
 				F9F837D21E015F4E0055D589 /* Cyclist.m */,
 				F9F837D41E01600D0055D589 /* Runner.h */,
@@ -537,6 +537,7 @@
 				F9F837C71E0158EE0055D589 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F9F837C81E0158EE0055D589 /* Build configuration list for PBXNativeTarget "ArrayHomeWork01Tests" */ = {
 			isa = XCConfigurationList;
@@ -545,6 +546,7 @@
 				F9F837CA1E0158EE0055D589 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F9F837CB1E0158EE0055D589 /* Build configuration list for PBXNativeTarget "ArrayHomeWork01UITests" */ = {
 			isa = XCConfigurationList;
@@ -553,6 +555,7 @@
 				F9F837CD1E0158EE0055D589 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
