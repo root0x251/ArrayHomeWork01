@@ -15,6 +15,10 @@
 		F9F837AB1E0158EE0055D589 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9F837A91E0158EE0055D589 /* LaunchScreen.storyboard */; };
 		F9F837B61E0158EE0055D589 /* ArrayHomeWork01Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F837B51E0158EE0055D589 /* ArrayHomeWork01Tests.m */; };
 		F9F837C11E0158EE0055D589 /* ArrayHomeWork01UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F837C01E0158EE0055D589 /* ArrayHomeWork01UITests.m */; };
+		F9F837D01E015ACD0055D589 /* Human.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F837CF1E015ACD0055D589 /* Human.m */; };
+		F9F837D31E015F4E0055D589 /* Cyclist.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F837D21E015F4E0055D589 /* Cyclist.m */; };
+		F9F837D61E01600D0055D589 /* Runner.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F837D51E01600D0055D589 /* Runner.m */; };
+		F9F837D91E0160200055D589 /* Swimmer.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F837D81E0160200055D589 /* Swimmer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		F9F837BC1E0158EE0055D589 /* ArrayHomeWork01UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArrayHomeWork01UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9F837C01E0158EE0055D589 /* ArrayHomeWork01UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArrayHomeWork01UITests.m; sourceTree = "<group>"; };
 		F9F837C21E0158EE0055D589 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9F837CE1E015ACD0055D589 /* Human.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Human.h; sourceTree = "<group>"; };
+		F9F837CF1E015ACD0055D589 /* Human.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Human.m; sourceTree = "<group>"; };
+		F9F837D11E015F4E0055D589 /* Cyclist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cyclist.h; sourceTree = "<group>"; };
+		F9F837D21E015F4E0055D589 /* Cyclist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cyclist.m; sourceTree = "<group>"; };
+		F9F837D41E01600D0055D589 /* Runner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Runner.h; sourceTree = "<group>"; };
+		F9F837D51E01600D0055D589 /* Runner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Runner.m; sourceTree = "<group>"; };
+		F9F837D71E0160200055D589 /* Swimmer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Swimmer.h; sourceTree = "<group>"; };
+		F9F837D81E0160200055D589 /* Swimmer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Swimmer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +113,14 @@
 		F9F8379A1E0158EE0055D589 /* ArrayHomeWork01 */ = {
 			isa = PBXGroup;
 			children = (
+				F9F837CE1E015ACD0055D589 /* Human.h */,
+				F9F837CF1E015ACD0055D589 /* Human.m */,
+				F9F837D11E015F4E0055D589 /* Cyclist.h */,
+				F9F837D21E015F4E0055D589 /* Cyclist.m */,
+				F9F837D41E01600D0055D589 /* Runner.h */,
+				F9F837D51E01600D0055D589 /* Runner.m */,
+				F9F837D71E0160200055D589 /* Swimmer.h */,
+				F9F837D81E0160200055D589 /* Swimmer.m */,
 				F9F8379E1E0158EE0055D589 /* AppDelegate.h */,
 				F9F8379F1E0158EE0055D589 /* AppDelegate.m */,
 				F9F837A11E0158EE0055D589 /* ViewController.h */,
@@ -273,9 +293,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9F837D31E015F4E0055D589 /* Cyclist.m in Sources */,
+				F9F837D61E01600D0055D589 /* Runner.m in Sources */,
 				F9F837A31E0158EE0055D589 /* ViewController.m in Sources */,
 				F9F837A01E0158EE0055D589 /* AppDelegate.m in Sources */,
 				F9F8379D1E0158EE0055D589 /* main.m in Sources */,
+				F9F837D01E015ACD0055D589 /* Human.m in Sources */,
+				F9F837D91E0160200055D589 /* Swimmer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

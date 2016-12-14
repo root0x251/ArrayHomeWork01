@@ -7,6 +7,10 @@
 //
 
 #import "AppDelegate.h"
+#import "Human.h"
+#import "Cyclist.h"
+#import "Runner.h"
+#import "Swimmer.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +21,37 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    Cyclist *personOnCycle = [[Cyclist alloc]init];
+    Runner *personWhoRun = [[Runner alloc]init];
+    Swimmer *personWhoSwim = [[Swimmer alloc]init];
+    
+    personOnCycle.name = @"Rick";
+    personOnCycle.height = 165.3f;
+    personOnCycle.weight = 54.3f;
+    personOnCycle.sex = @"male";
+    
+    personWhoRun.name = @"Kelvin";
+    personWhoRun.height = 194.344f;
+    personWhoRun.weight = 76.4f;
+    personWhoRun.sex = @"male";
+    
+    personWhoSwim.name = @"Mary";
+    personWhoSwim.height = 184.3f;
+    personWhoSwim.weight = 49.9f;
+    personWhoSwim.sex = @"female";
+    
+    NSArray *array = @[personOnCycle, personWhoRun, personWhoSwim];
+    for (Human *string in array) {
+        NSLog(@"Имя - %@", string.name);
+        NSLog(@"Рост-%.2f", string.height);
+        NSLog(@"Вес-%.2f", string.weight);
+        NSLog(@"Пол-%@", string.sex);
+        //метод передвижения
+        [string motion];
+    }
+    
+    
     return YES;
 }
 
