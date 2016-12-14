@@ -47,7 +47,7 @@
         NSLog(@"Рост-%.2f", string.height);
         NSLog(@"Вес-%.2f", string.weight);
         NSLog(@"Пол-%@", string.sex);
-        //метод передвижения 
+        //метод передвижения
         [string motion];
     }
     
