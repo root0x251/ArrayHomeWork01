@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F976FD8F1E0193F5002E365B /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = F976FD8E1E0193F5002E365B /* Animal.m */; };
+		F9E9F8DE1E01E776005E83B4 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E9F8DD1E01E776005E83B4 /* Dog.m */; };
+		F9E9F8E11E01E79F005E83B4 /* Hourse.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E9F8E01E01E79F005E83B4 /* Hourse.m */; };
 		F9F8379D1E0158EE0055D589 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F8379C1E0158EE0055D589 /* main.m */; };
 		F9F837A01E0158EE0055D589 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F8379F1E0158EE0055D589 /* AppDelegate.m */; };
 		F9F837A31E0158EE0055D589 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F837A21E0158EE0055D589 /* ViewController.m */; };
@@ -40,6 +43,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F976FD8D1E0193F5002E365B /* Animal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		F976FD8E1E0193F5002E365B /* Animal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
+		F9E9F8DC1E01E776005E83B4 /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		F9E9F8DD1E01E776005E83B4 /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		F9E9F8DF1E01E79F005E83B4 /* Hourse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hourse.h; sourceTree = "<group>"; };
+		F9E9F8E01E01E79F005E83B4 /* Hourse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hourse.m; sourceTree = "<group>"; };
 		F9F837981E0158EE0055D589 /* ArrayHomeWork01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArrayHomeWork01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9F8379C1E0158EE0055D589 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F9F8379E1E0158EE0055D589 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -116,6 +125,12 @@
 		F9F8379A1E0158EE0055D589 /* ArrayHomeWork01 */ = {
 			isa = PBXGroup;
 			children = (
+				F976FD8D1E0193F5002E365B /* Animal.h */,
+				F976FD8E1E0193F5002E365B /* Animal.m */,
+				F9E9F8DC1E01E776005E83B4 /* Dog.h */,
+				F9E9F8DD1E01E776005E83B4 /* Dog.m */,
+				F9E9F8DF1E01E79F005E83B4 /* Hourse.h */,
+				F9E9F8E01E01E79F005E83B4 /* Hourse.m */,
 				F9F837CE1E015ACD0055D589 /* Human.h */,
 				F9F837CF1E015ACD0055D589 /* Human.m */,
 				F9F837DA1E016B8C0055D589 /* SuperMan.h */,
@@ -300,12 +315,15 @@
 			files = (
 				F9F837DC1E016B8C0055D589 /* SuperMan.m in Sources */,
 				F9F837D31E015F4E0055D589 /* Cyclist.m in Sources */,
+				F9E9F8DE1E01E776005E83B4 /* Dog.m in Sources */,
 				F9F837D61E01600D0055D589 /* Runner.m in Sources */,
 				F9F837A31E0158EE0055D589 /* ViewController.m in Sources */,
 				F9F837A01E0158EE0055D589 /* AppDelegate.m in Sources */,
 				F9F8379D1E0158EE0055D589 /* main.m in Sources */,
+				F976FD8F1E0193F5002E365B /* Animal.m in Sources */,
 				F9F837D01E015ACD0055D589 /* Human.m in Sources */,
 				F9F837D91E0160200055D589 /* Swimmer.m in Sources */,
+				F9E9F8E11E01E79F005E83B4 /* Hourse.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
